@@ -21,6 +21,8 @@ while True:
             "Hãy cố gắng nhé!!!")
         elif "bye" in yourQuestion or "tạm biệt" in yourQuestion or "tắt" in yourQuestion:
             break
+        else:
+            print("Câu hỏi nằm ngoài hiểu biết của tôi xin lỗi bạn:((")
     except:
         print("Lỗi hãy nhập lại")
 del yourQuestion
